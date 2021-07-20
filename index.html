@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+  <title>News App</title>
+  <link rel="shortcut icon"
+    href="https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bmV3c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SP News</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbarList">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item" id="datetime_li">
+            <a class="nav-link active" id="datetime_a" aria-current="page" href="#"> </a>
+          </li>
+
+        </ul>
+
+        <div class="d-flex">
+          <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" id="searchbtn" onclick="searchNews()">Search</button>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <div class="container my-4" id="parent">
+    <!-- news row and and column will be added here by javascript -->
+
+  </div>
+
+  <!-- footer -->
+  <div class="myfooter container-fluid bg-dark text-light mt-4 p-3">
+    <p class="text-center mb-0">Website Developed by Sachin Prajapati &copy; 2021 </p>
+    <h5 class="text-center my-2">follow me on social</h5>
+    <ul class="social-icons">
+      <li><a class="facebook" href="https://www.facebook.com/bullet.raja.1998"><i class="fab fa-facebook-f"
+            aria-hidden="true"></i></a></li>
+      <li><a class="twitter" href="https://twitter.com/SachinP40"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+      </li>
+      <li><a class="instagram" href="https://www.instagram.com/prajapati_rangbaz?r=nametag"><i class="fab fa-instagram"
+            aria-hidden="true"></i></a></li>
+      <li><a class="github" href="https://github.com/sachinprajapati8604"><i class="fab fa-github"
+            aria-hidden="true"></i></a></li>
+      <li><a class="linkedin" href="https://www.linkedin.com/in/sachin-prajapati-8b1993188"><i
+            class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
