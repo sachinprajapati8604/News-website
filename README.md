@@ -4,3 +4,5 @@ I have done this project in html,css,bootstrap,js.
 
 ###### github io link 
  https://sachinprajapati8604.github.io/News-website/
+ 
+ ## if link does not work please do it  through your local machine .
